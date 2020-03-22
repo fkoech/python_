@@ -1,2 +1,2 @@
 # python1
-python practicals exercises  from the scratch to the advanced level
+learn with me on how to code python pragamming from the scratch to the advanced level, hope you will enjoy.
