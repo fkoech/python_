@@ -139,7 +139,27 @@
 
 
 ####if else statement example4 in python#######
-# g = 30
-# h = 50
-# if g < h:
+#g = 80
+#h = 50
+#if g < h:
+#   print("g is less than h")
+#else:
+#    if g == h:
+#      print("g is equal to h")
+#    else:
+#        print("g is greater than h")
+#
+
+
+
+
+
+
+#### a simple calculator for calculating the BMI #####
+name = "Felix"
+height_m = 3
+weight_kg = 90
+bmi = weight_kg / (height_m ** 2)
+print("bmi:")
+print(bmi)
 
