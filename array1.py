@@ -118,13 +118,87 @@
 #for e in c:
 #    total = total*e
 #print(e)
-#
+
+
+
+
+
 
 ###exampl5 of for loop in python####
 #total = 0
 #for i in range(1,8):
 #    total += i
 #print(total)
+
+
+
+
+
+
+
+## example6 of for loop in python combined with a list
+#given_list = [5, 6, 8, -2, -1]
+#total = 0
+#for element in given_list :
+#    total += element
+#
+#print(total)
+
+
+
+
+
+
+
+
+
+#### example7 of a for loop in python which will break the loop after certain condition is made
+#given_list = [4, 6,7,8,9,9,-2, -1]
+#total = 0
+#i = 0
+#for i in given_list:
+#    if i < 4:
+#        break
+#    total += i
+#print(total)
+
+
+
+
+
+
+
+
+##Example8 of a for loop in python 
+#a = ["Maize", "millet", "white", "Balcum"]
+#for list in a:
+#    print(a)
+#for i in range(4):
+#    print(a[i])
+#
+
+
+
+
+
+# example9 of a for loop in python##
+# used in the case where the index matters
+#a = ["beans", "peas", "ground nuts"]
+#for i in range(len(a)):
+#    print(a[i])
+#
+
+ 
+#example10 of a for loop in python ###
+#for the case where you want to print "apple" once, "banana" twice and "oranges" three time"
+#a = ["apple", "banana", "orange"]
+#for i in range(len(a)):
+#    for j in range (i + 1):
+#        # i = 0 -> j = 0
+#        # i = 1 -> j = 0, 1
+#        # i = 2 -> j = 0, 1, 2
+#        print(a[i])
+#
 
 
 
@@ -167,14 +241,41 @@
 
 
 
-##range question1 in python ###
+## question1 for for loop and a given range  in python ###
 #can you compute all multiples of 3, 5  in the range 1 to 100
-#solution1
-#total2 = 0
-#for i in range(1, 100)
-#
+#####solution1#####
+#total = 0
+#for i in range(1, 100):
+#    if i % 3 == 0:
+#        total += i
+#    elif i % 5 == 0:
+#        total += i
+#print(total)
+####solution2##3
+#total = 0
+#for i in range(1,100):
+#    if i % 3 ==0 or i% 5 ==0:
+#        total += i
+#print(total)
 
 
+
+
+
+
+
+##question2 
+### find the sum of only the positive numbers in the give_list =[7, 3,5,6,6,-1,-2,-5,-6, -7,-30]
+##solution1
+#given_list = [7,3,5,6,6,-1,-2,-5,-6,-7,-30]
+#total = 0
+#j = len(given_list) - 1
+#while given_list[j] <  0:
+#    total += given_list[j]
+#    j-=1
+#print(total)
+ 
+ 
 
 
 
@@ -212,6 +313,14 @@
 #d = "I am a christian ,brought up from a catholic denomination"
 #e = "and i am in third year in computer science venturing in cybersecurity"
 #print(b+c+d+e)
+
+
+
+
+
+
+
+
 
 
 # a variable represence a value in python 
@@ -443,4 +552,169 @@
 #result5 = bmi_calculator(name5, height_m5, weight_kg5)
 #print(result5)
 #
-`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####Example1 of a while loop in python####
+#total1 = 0
+#j = 4
+#while j < 5:
+#    total1 += j
+#    j +=1
+#print(total1)
+#
+
+
+
+
+
+####example2 of a while loop in python ####
+#give_list = [5, 4, 4, 3, 1, -2,-3, -5]
+#total = 0
+#i = 0
+#while give_list[i] > 0:
+#    total += give_list[i]
+#    i += 1
+#print(total)
+#print(i)
+
+
+
+
+
+# example3 of a while loop in python ###
+#### len is a predefined function in python, it is used to find the length of a sequence ie characters in a string, check number of  elements  in a python list
+#given_list = [5, 4, 3, 2, 1]
+#total = 0
+#i = 0
+#while i < len(given_list) and  given_list[i] > 0:
+#    total += given_list[i]
+#    i += 1
+#print(total)
+
+
+
+
+
+
+## example4 of while loop in python ####
+#`given_list = [3,5,6,7,7,-3,-2,-3]
+#`total=0
+#`i=0
+#`while True:
+#`    total += given_list[i]
+#`    i += 1
+#`    if given_list[i] <= 0:
+#`        break
+#`print(total)
+
+
+
+
+
+
+####Dictionaries in python######
+#example1 of a dictionaries in python###
+#d = {}
+#also a dictionary can be defined by d = dict{}
+#defining new dictionary with the values ie d = {"George":24, "Tom":30}
+#d["Felix"] = 23 # it says add a value key pair Felix with the value 23
+#d["Vivian"]= 25
+#d["Philemon"]= 28
+#print(d["Felix"])
+#print(d["Vivian"])
+
+
+
+
+
+
+
+
+
+#### Example2 of dictionaries in python ####
+# it is posible to change the value of a certain key ie 
+#d = {}
+#d["Felix"] =20
+#print(d["Felix"])
+#d["Felix"] = 23
+#print(d["Felix"])
+
+
+
+
+
+
+
+
+# a key are commonly string or numbers
+#example3 of keys being numbers  dictionary in python  ####
+#d = {}
+#d[10] = 100
+#print(d[10])
+
+
+
+
+
+
+###how to iterate over key value pairs
+## example4 of dictionaries in python ####
+#d = {}
+#d["Felix"] = 40
+#d["Jesus"] = 1000
+#for key, value in d.items():
+#    print("key:")
+#    print(key)
+#    print("value:")
+#    print(value)
+#    print("")
+
+
+
+
+
+
+
+
+
+
+###class in python
+##Example1 of classes in python ##
+#class Robot:
+#    def introduce_self(self):
+#        print("my name is " + self.name)
+#        print("my color is" + self.color)
+#        
+#
+#r1 = Robot()
+#r1.name = "Tom"
+#r1.color ="red"
+#r1.weight =30
+#
+#r2 = Robot()
+#r2.name = "james"
+#r2.color = "blue"
+#r2.weight ="46"
+#r2.introduce_self()
+#r1.introduce_self()
+
+
+
+
+
+
+
+
