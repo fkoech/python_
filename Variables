@@ -1,1 +1,11 @@
 
+Variables
+           --------------
+->>Containers for storing data values.
+->>It is created immediately you assign a value to it. ie
+            name = "John"
+            unit = "python language"
+            college = "Catholic"
+            print('my name is' + John + 'a student at' + college + 'and am currently learning ' + unit)
+->>They can change type after some times. ie
+            name = "James" # when you print name, it will output james not john.       
