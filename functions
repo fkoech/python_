@@ -49,3 +49,33 @@ person1 = {
 #import platform 
 #x = dir(platform)
 #print(x)
+
+
+#import mymodule
+#mymodule.greeting("Jonathan")
+
+
+#a = mymodule.person1
+#print(a)
+#x = dir(mymodule)
+#print(x)
+
+
+
+#import from mymodule
+#import mymodule
+#mymodule.greeting("Felix")
+
+
+
+#re-naming a module
+#as keyword can be used to create an alias  when importing a module
+#----------
+#import mymodule as mx
+#a = mx.person1["age"]
+#print(a)
+
+
+#importing  the person1 dictionary from the module:
+from mymodule import person1
+print(person1["age"])
