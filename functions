@@ -1,1 +1,51 @@
 
+#def greeting (name):
+#    print("hello, " +name)
+#module is considered to be the same as a code library.
+#It is a file containing a set of functions you want to include in your application
+#when using a function from a module, use the syntax :module_name.function_name.
+#it can also contain a variable of all types(arrays, dictionaries, objects)
+#person1 = {
+#        "name":"john",
+#        "age":34,
+#        "country":"Norway"
+#        }
+
+
+
+#using the dir() function
+#-------------------------
+#This is a built-in function used to list all the function names(or variable names) in a module
+#dir() function can be used on all modules, also the  one you create  yourself.
+
+
+
+#imort from module
+#-----------------
+#from is used to choose a part you want to import from a module
+#----
+def greeting(name):
+    print("hello, " + name)
+
+person1 = {
+        "name":"John",
+        "age":36,
+        "Country":"Norways"
+            }
+    #from the above example we want to import only the person1 dictionary from the module in mymodule1.py
+
+
+
+
+#Built-in modules
+#----------------
+#they are alot in python.
+#they can be imported whenever you like
+
+#import platform
+#x = platform.system()
+#print(x)
+
+#import platform 
+#x = dir(platform)
+#print(x)
