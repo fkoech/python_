@@ -1,0 +1,15 @@
+->Built-in data types in python includes:
+                         1)Text type:  str
+                         2)Numeric types: int, float, complex
+                         3)sequence types: list, tuple, range
+                         4)mapping type: dict
+                         5)Set types: set fronset
+                         6) Boolean types: bool
+                         7)Binary types: bytes, bytearray, memoryview
+
+
+ Data types and their examples
+------------------------------
+1)Str:   x = "Am learning and doing  listening to music"
+2)int:   a = 230
+
