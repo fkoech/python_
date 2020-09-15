@@ -1,1 +1,104 @@
 
+Algorithm
+-----------------
+->Procedure used to manipulate data and data stuctures.
+->Divided into two programs.
+->Possess characteristics as follows:
+                      1)finite - there is a beginning and ending where some form of output is achieved.
+                      2)Must be unambiguous.
+                      3)must be effective.
+
+
+
+          ADT(Abstract data type)
+         ---------------------------
+->Data type packaged with the operations that are meaningful for the data type encapsulated and hiden from the user.
+->ADTS includes:
+                1)Stack
+                2)Queue
+                3)List linked list
+                4)trees
+
+Stacks
+-----------
+->Restricted linear list in which all additions and deletions are made at one end, the top.
+->Insertion and deletion of data is known as last in first out(LIFO)
+->Has 4 operation: 
+                 1)Stack
+                 2)push 
+                 3)Pop
+                 4)empty,
+->Push - inserts an item at the top of the stack.
+->Pop - deletes the item at the top of the stack.
+->empty - checks the status of the stack.
+          Returns T if empty and F if not empty.
+
+
+    Stack applications
+   --------------------
+->Classified into:
+                1)Reversing data
+                2)Pairing data
+                3)Postponing data usage
+                4)Backtracking steps
+
+
+1)Reversing data items
+-----------------------
+->States that a given set of data items be reordered so that the first and last items are exchanged, with all of the positions between the first and the last being also being relaively exchanged.
+
+
+2)Pairing data items
+----------------------
+->ie 3*(6+2) = 24.
+
+
+Stack implementation
+-------------------
+->Stack ADTs can be implemented using either an array or a linked list.
+->array implementation hace arecord  that has two fields.
+-> lnked list implementation is similar but has an etra node that had the name of the stack.
+
+
+
+
+QUEUES
+------
+->A linear list in which data can only be inserted at one end, called the rear and deleted from the end called the front.
+->Ensures that data is processed through the queue in the order in which it wasreceived  that s first in first out(FIFO).
+->Operations includes:
+                    1)Queue
+                    2)Enqueue
+                    3)Dequeue
+                    4)Empty
+->Queue - an empt queue.
+->Enqueue - inserts an item at the rear of the queue.
+->Dequeue - deletes an item at the front of the queue.
+->Empty - checks the status of the queue.
+
+Applications:
+           ->Found virtually in operating systems.
+           ->Used in online business applications such as processing customer requests, jobs and orders.
+           ->Needed to process jobs and for system services such as print spools. 
+           ->Organises databases by some characteristics of the data.
+           ->It adjust and create  a balance between  fast producer of data and a slow consumer of data.
+            ->
+
+
+
+Queue implementation
+--------------------
+->Can be implemented using either an array or an linked list.
+->In array implementation it has a record with three fields
+->Linked list implementstion is similar to array implementation and an extra node tthat has the name of the queue.
+->The nodes has three fields: a count, a pointer that points to the front element and a pointer that points to the rear element.
+
+
+
+
+
+    General Linear lists
+=========================
+-> Stacks and queues defined as restricted linear lists.
+->General linear list - one in which operations such as insertion and deletion, can be done anywhere in the list.
+
