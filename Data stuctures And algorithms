@@ -1,18 +1,52 @@
+       
+                         INTRODUCTION
+                        -------------------
+->Program - set of instructions to be executed by the computer to accomplish a particular task.
+->Characteristic of a good program:
+                    -Run correctly
+                    -Run efficiently
+->program = Algorithm + Data structures
+                    
+Data-structures
+----------------
+->constructs which exist in a programming language
+->Enables representations of concepts which we manipulated using the computer. 
+->Ways of representing concepts includeds:
+                                 -arrays
+                                 -structs
+                                 -pointers
+->Concerns with how data is stored and organized for processing.
+->Structures can be:
+                 -Static - cannot change throughout the duration of program execution.
+                 -Dynamic - change during program execution.
+->Condition for someone to use certain type of data structures:
+                         -Nature of data items.
+                         -Number of data items to be processed.
+                         -How the data items are accessed.
+                         -Computer resources
+->Data structures includes: 
+              -simple list
+              -linked list
+              -stacks
+              -Queues
+              -binary trees
+              -Networks
 
+        
 Algorithm
 -----------------
-->Procedure used to manipulate data and data stuctures.
+->Procedures used to manipulate data and data stuctures.
 ->Divided into two programs.
 ->Possess characteristics as follows:
                       1)finite - there is a beginning and ending where some form of output is achieved.
                       2)Must be unambiguous.
                       3)must be effective.
-
+                      
 
 
           ADT(Abstract data type)
          ---------------------------
-->Data type packaged with the operations that are meaningful for the data type encapsulated and hiden from the user.
+->Data type packaged with the operations that are meaningful for the data type. we then encapsulate the data and the operations  and hiden them from the user.
 ->ADTS includes:
                 1)Stack
                 2)Queue
@@ -22,21 +56,22 @@ Algorithm
 Stacks
 -----------
 ->Restricted linear list in which all additions and deletions are made at one end, the top.
-->Insertion and deletion of data is known as last in first out(LIFO)
+->Insertion and deletion follows the order of the reversing attribute called (LIFO)
 ->Has 4 operation: 
                  1)Stack
                  2)push 
                  3)Pop
                  4)empty,
+->Stack - Creates an empt stack
 ->Push - inserts an item at the top of the stack.
 ->Pop - deletes the item at the top of the stack.
 ->empty - checks the status of the stack.
-          Returns T if empty and F if not empty.
+        - Returns T if empty and F if not empty.
 
 
     Stack applications
    --------------------
-->Classified into:
+->Classified into 4 Categories:
                 1)Reversing data
                 2)Pairing data
                 3)Postponing data usage
@@ -45,7 +80,7 @@ Stacks
 
 1)Reversing data items
 -----------------------
-->States that a given set of data items be reordered so that the first and last items are exchanged, with all of the positions between the first and the last being also being relaively exchanged.
+->States that a given set of data items be reordered so that the first and last items are exchanged, with all of the positions between the first and the last being also being relatively exchanged.
 
 
 2)Pairing data items
@@ -56,8 +91,8 @@ Stacks
 Stack implementation
 -------------------
 ->Stack ADTs can be implemented using either an array or a linked list.
-->array implementation hace arecord  that has two fields.
--> lnked list implementation is similar but has an etra node that had the name of the stack.
+->array implementation has record  that has two fields.
+-> linked list implementation is similar but has an extra node that had the name of the stack.
 
 
 
@@ -65,13 +100,13 @@ Stack implementation
 QUEUES
 ------
 ->A linear list in which data can only be inserted at one end, called the rear and deleted from the end called the front.
-->Ensures that data is processed through the queue in the order in which it wasreceived  that s first in first out(FIFO).
+->Ensures that data is processed through the queue in the order in which it were received  that is first in first out(FIFO).
 ->Operations includes:
                     1)Queue
                     2)Enqueue
                     3)Dequeue
                     4)Empty
-->Queue - an empt queue.
+->Queue -  creates an empt queue.
 ->Enqueue - inserts an item at the rear of the queue.
 ->Dequeue - deletes an item at the front of the queue.
 ->Empty - checks the status of the queue.
@@ -82,7 +117,7 @@ Applications:
            ->Needed to process jobs and for system services such as print spools. 
            ->Organises databases by some characteristics of the data.
            ->It adjust and create  a balance between  fast producer of data and a slow consumer of data.
-            ->
+            
 
 
 
@@ -90,8 +125,9 @@ Queue implementation
 --------------------
 ->Can be implemented using either an array or an linked list.
 ->In array implementation it has a record with three fields
-->Linked list implementstion is similar to array implementation and an extra node tthat has the name of the queue.
-->The nodes has three fields: a count, a pointer that points to the front element and a pointer that points to the rear element.
+->Linked list implementstion is similar to array implementation and an extra node 
+that has the name of the queue.
+->The nodes has three fields: a count, a pointer that points to the front element  and a pointer that points to the rear element.
 
 
 
@@ -100,5 +136,95 @@ Queue implementation
     General Linear lists
 =========================
 -> Stacks and queues defined as restricted linear lists.
-->General linear list - one in which operations such as insertion and deletion, can be done anywhere in the list.
+->General linear list - one in which operations such as insertion and deletion, can be done anywhere in the list. ie in the meddle, beginning and end.
+->Operation on a general linear list: 
+                       -List
+                       -insert
+                       -delete
+                       -traverse
+                       -empty
+->List - creates an empty list.
+->insert - add an element to the list
+->delete - delete data 
+->Retrieve - access a single element.
+           - traverse(listName, action)
+->empty - check the status of the list.
+        - empty(listName)
+
+  General Linear list applications
+===================================
+->used in situations in which the elements are accessed randomly or sequentially.
+->
+
+
+General linear list implementation
+==================================
+->
+
+  
+
+
+Trees
+======
+->Nonlinear data structure used to represent entities that are  in some hierarchical relationship.
+              -Family tree
+              -Table of contents of a book
+              -Class inheritance  hierarchy in java
+              -computer file system(folders and subfolders)
+              -Decision trees
+              -Top-down design
+->Set of elements of the same type.
+->Terminologies :
+             -Nodes - elements in the tree
+             -Edges - connections between nodes 
+             -Root  - Distinguished element that is the origin of the tree.
+             -leaf node - node without an edge to another node.
+             -interior node - node that is not a leaf node.
+             - Empty tree - has no nodes and no edges.
+             -Parent/predecessor - node direct above in the hierarchy
+             -child/successor - node directly below in the hierarchy.
+             -siblings - nodes that have the same parent.
+             -Ancestors - the parent of its parent
+             -Descendants - the children of its children.
+             -path - sequence of edges leading from one node to another.
+             -length of a path - number of edges on the path.
+             -height of a (non-empty) tree - length of the longest path from the root to a leaf.
+             -Level of a node - number of edges between root and node
+                              -defined recursively.
+             -subtree - consists of a child node and all its descendants
+                      - Is itself a tree
+                      - may have many subtrees
+             -Degree or arity - arity of a node, the number of children it has
+                              - arit of a tree: the maximum of the degrees of the tree's nodes.
+             
+
+
+
+    Binary Trees
+ ==================
+->General tree - a  tree each of whose nodes may  have any number of children.
+->n-ary tree - a tree each of whose nodes may have no more than n children.
+->binary tree - a  tree each of whose nodes may have no more than 2 children.
+              - The children(if present) are called the left child and right child
+              -A special case where k=2.
+->A k-ary tree - a rooted tree in which each node has no more than k children.
+               - also sometimes known as k-way tree, an N-ary tree, an M-ary tree.
+               -Have special names:
+                                 -2-ary tree are called binary tree
+                                 -3-ary tree are called trinary trees or ternary trees
+                                 -1-ary trees are called lists.
+               -It consist of:
+                           -A full k-ary - each level every node has either 0 or k children.
+                           - A perfect k-ary - a fully k-ary tree in which all leaf nodes are at the same depth.
+               
+->a complete k-ary - it has maximally space efficient.
+                   - must be completely filled on every level.
+                   - If the last level is not complete, then all nodes of the tree must be as far left as possible.
+->It is a positional tree ie it matters whether the subtree is left or right.
+
+
+
+             
+
+ 
 
