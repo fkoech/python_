@@ -1,0 +1,142 @@
+Natural language VS programming language
+--------------------------------------------
+->A language is a means (tool) for expressing and recording thoghts.
+->the are many languages all around us some of them require neither speaking nor writting, such as body language,It is posible
+  to express your deepest feeling very precisely without saying a word.
+->computers too need  language called machine language, which is very rudimentary.
+->A computer , even the most technically  sophisticated, is devoid of even tracing of intelligence. You would say that it is like a well 
+trained dog- it respond only to predetermined set of known commands
+->A complete set of known commands is called an instruction list.(iL)
+
+
+what makes language
+------------------------
+->Machine or natural language are made up of the following elements:
+                             1.Alphabets
+                             set of simples used to build words
+                             2.A lexis
+                             aka dictionary
+                             set of words the language offers its users
+                             3)A syntax
+                             set of rules used to determine  if a certain string of words form valid sentence
+                             4)sematics
+                             set of rules determining  if a certain phrase makes sentences
+->we need a language in which humans can write their programs and language that computer can use to execute the programs, one that is far more complex
+than machine language and yet far simpler than natural language.
+->such language are often called hight-level programming language.
+->they are at least somewhat similar to natural  ones in that they use symbols, words and conventions  readable to humans.
+->these language enables humans to express commands to computer that are more complex than those offered by ILS.
+->A program written in high-level programing is called a source code(constrast to the machine code executed by computers)
+->the file containing the source code is called the source file
+
+
+compilation vs interpretation
+----------------------------------
+->computer programming is the act of composing  the selected programming language's elements in the order that  will cause the desired effect.
+->The are two different ways of transforming a programing from a high-level programming language into machine language.
+->compilation -  the source program is  translated once(however this act must be repeated each time you modify the source code) by getting a file.
+->interpretation - you need to translate the source code each time it has to be run.
+                  the  program performing  this kind  of transformation is called interpreter.
+                  
+                  
+                  
+                  what does the interpreter actually do
+                  -------------------------------------
+ ->A computer program is actually a piece of text, so actually the source code  is asually placed in text files.
+ ->Interpreter checks if all subsequence lines are correct (using the four elements)
+ ->If it finds an error, it finishes its works immediately, the result in this case is error message.
+ ->the interpreter will tell you where the error is located and what caused.
+ ->this may be misleading since it is unable to follow  your exactly intentions, and  may detect error at some distance from their real cause.
+ 
+ 
+ Compilation
+ ------------
+ ->The execution of the translated code is usually faster.
+ ->only the user has to have the compiler-the end userr may use the code without it
+ ->The translated code is stored using  using the machine language-it is very hard to understand it.
+ 
+ 
+ dis-advantages
+ -------------
+ ->the compilation itself may be  a very time consuming process process - you may not run your codes be able to run  your code immediately 
+ after amendment.
+ ->you have to have as many compiler as hardware platform you eant your code to run on.
+ 
+ 
+ 
+ Interpretation
+ ----------------
+ ->You can run the code as soon as you complete it - there are no additional phases of translations.
+ ->the code are stored using programming language, not the machine one.
+ ->meaning it can run on computer your code separately for each different architecture.
+ 
+ 
+ disadvantage
+ -------------
+ ->Don't expect that interpretation will ramp your code to high speed-your  code shares the computers power with the interpreter, so it cant be really faster.
+ ->Both you and the end users have the interpreter to run your code.
+ 
+ 
+ ->python is an interpreted language, meaning that it inherits all the discription  advantages and disadvantages 
+  ->for someone to program in python, you need an interpreter  you won't be able to run your code without it.
+ 
+ 
+ 
+ What is python 
+ --------------
+ ->it is:
+         widely used
+         interpreted 
+         object-oriented
+         hight level language programming language.
+         it has dynamic semantics, used for general-purposed prgramming
+         come from old BBC television comedy sketch series called monty python's flying circus
+         Developed by Guido Van Rossum
+         
+         
+     Python Goals
+     ---------------
+ ->An easy intuative language
+ ->Open source, anyone can contribute to its development
+ ->Codes that is as understandable as English 
+ ->suitable for everyday tasks, allowing for short development times.
+ 
+ 
+ What makes python special 
+ ------------------------------
+ ->many companies adopted python and implemented their flagship products using it.
+ ->easy to learn
+ ->Easy to teach ie one cannot waste energy on exotic trick, strange exception and incoprensible rules.
+ ->Easy to use for writing new software- its often possible to write code faster using python.
+ ->Easy to understand 
+ ->it is easy to obtain, install and deploy
+ ->
+     
+         
+         Module summary
+         ---------------
+->Data types, and basic methods of formating, converting, inputing an outputting data
+->operation
+->variable
+
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
