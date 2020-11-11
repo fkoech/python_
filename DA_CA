@@ -1,0 +1,54 @@
+Modules
+------------
+->groups of related tools 
+->sometimes called packages or libraries.
+->Groups together  related sts of tools in python.
+->Common
+      matplotlib
+      pandas
+      scikit-learn
+      scipy
+      nltk
+      statsmodels - used in machine learning
+                  - aliased as sm.
+      seaborn - a visualization library
+                aliased as sns
+                
+ ->importing a module
+     import pandas
+ ->importing a module with alias
+     import pandas as pd
+ ->alias - allows use of tools inside of the module without typing module characters.
+ 
+ 
+ 
+ Variables
+ ------------
+ ->defined by using an equal sign.
+ Rules for variables names
+ --------------------------
+ ->Must start with a letter (usually lowercase)
+ ->After first letter can use letter/numbers/underscores
+ ->no spaces or special characters
+ ->Case sensitive (my_var is different from MY_VAR)
+ 
+ 
+ 
+ Creating variables
+ --------------------
+ -> floats and strings
+      -float :represents  an interger or decimal nmber
+            weight = 32
+            width = 393.23
+      -String :represents text
+               surrounded by quotation  marks
+               can contain letters, numbers, spaces and special characters
+               nam = 'felix'
+               school = 'the Catholic University Of Eastern Africa'
+               
+Common errors in string 
+-----------------------
+->Dont forget to used quotes! without quotes ie name error, 
+->mixing both single and doubl quote ie syntax error.
+
+          
