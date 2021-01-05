@@ -1,0 +1,123 @@
+portscanner
+import socket
+from ipy import  IP
+ #how to convert a link to ipaddress of of a website.
+
+def check_ip(ip):
+     try:
+        IP(ip)
+        return(ip)
+     except ValueError:
+           socket.gethostbyname(ip)
+#download(apt install python3-pip
+#pip install ipy
+
+#define the target to scan
+
+#port = 80
+
+def scan_port(ipaddres, port):
+    try:
+        #define the socket discripter
+        sock=socket.socket()
+        sock.settimeout(0.7)# to speedup the scanning process
+
+        #try to collect to that machine
+        sock.connect((ipaddress, port))
+        print('[+] port' + str(port) + 'is open')
+    except:
+        print('[-] port' + str(port) +' is closed')
+ipaddress = input('[+] Enter the target to scan:')
+#to scan multiple targets, 
+ # =  input('[+] Enter target/s To Scan: (split  multiple target with, ): ') 
+
+converted_ip = check_ip(ipaddress)
+
+#it checks if the ports form 0 to 9 are open
+for port in range(1, 10):
+   scan_port(convert_ip, port)
+   
+   
+ #Go to the website you want the by excuting the "nslookup www.kiryondisenterprises.com"
+ #copy the address  
+ # run the program "python myprogram.py"
+ #enter the target scanner ipaddress
+ 
+ 
+ #open another tap in the terminal 
+ # python in the prompt
+ #from IPy import ip
+ #ipaddress  = "ipaddress of your site"
+ #convert_ip = IP(ipaddress)
+ #print(convert_ip)
+ 
+ 
+ 
+ 
+ To scan ports of multiple targets
+ -----------------------------------
+import socket
+from ipy import  IP
+def scan(target):
+    convert_ip = check_ip(target)
+    print('\n' + '[_0 Scanning Target]' +  string(target))
+    for port in range(1, 100):
+        scan_port(convert_ip, port)
+def check_ip(ip):
+     try:
+        IP(ip)
+        return(ip)
+     except ValueError:
+         return socket.gethostbyname(ip)
+#download(apt install python3-pip
+#pip install ipy
+
+#define the target to scan
+
+#port = 80
+def get_banner(s):
+    return s.recv(1024)
+
+def scan_port(ipaddres, port):
+    try:
+        #define the socket descripter
+        sock=socket.socket()
+        sock.settimeout(0.7)# to speedup the scanning process
+
+        #try to collect to that machine
+        sock.connect((ipaddress, port))
+        #to check the exactly service running on that port
+        try:
+           banner = get_banner(sock)
+           #the plus sign mean the port is open
+           print('[+] open  port' + str(port) + ':' + str(banner.decode().strip('\n')))
+        except:
+              print('[+] open port ' + str(port))
+    except:
+        #print('[-] port' + str(port) +' is closed')
+        pass
+#to scan multiple targets, 
+targets =  input('[+] Enter target/s To Scan: (split  multiple target with, ): ') 
+if ',' in targets:
+    for ip_add in targets.split(',');
+        scan(ip_add.strip(' '))
+else:
+     scan(targets)
+#it checks if the ports form 0 to 9 are open
+
+   
+   
+ #Go to the website you want the by excuting the "nslookup www.kiryondisenterprises.com"
+ #copy the address  
+ # run the program "python myprogram.py"
+ #enter the target scanner ipaddress
+ 
+ 
+ #open another tap in the terminal 
+ # python in the prompt
+ #from IPy import ip
+ #ipaddress  = "ipaddress of your site"
+ #convert_ip = IP(ipaddress)
+ #print(convert_ip)
+   https://www.youtube.com/watch?v=0NQ2aMxBYNE (1:20:48)
+    
