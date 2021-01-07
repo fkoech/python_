@@ -1,0 +1,64 @@
+Cryptograhy is the art of communication between two users via coded message.
+           -Emerged with the basic motive of providing security to confidential messages transferred 
+            from one party to another.
+           -the art and science of concealing the message to introduce privacy and secrecy as recognized in information security.
+           
+           
+           terminologies  of cryptography
+           ----------------------------
+           plain text - text which is readable and can be understood by all  users
+           cipher text - optained after applying cryptography on plain text.
+           encryption - converted plain text to cipher text. also encoding 
+           decryption - coverting cipher text to plain text also decoding.
+           
+           
+           characteristics of modern cryptography
+           =======================================
+ -operate on bit sequences
+ -used mathematical algorithms for securing the information
+ -Requires parties interested in secure communication channel to acheive privacy.
+ 
+ Double string encryption 
+ ----------------------------
+ -also called multiple encryption/cascade  encryption/cascade ciphering 
+ -Encrypting an already encrypted text one  or more times
+  with the same or differrent algorithm/pattern
+  
+  levels of double strength encryption
+  ----------------------------------------
+  -first layer of encryption - the cipher text is generated from the original readable message
+                               using hash algorithm and symmetric keys.
+                             -Symmetric key are encrypted with the help of asymmetric keys.
+                             -combining the hash digest of the cipher text into a capsule is 
+                              the best illustration for this pattern.
+                              
+                              
+ -second layer of encryption - 
+                                -add  one more layer to cipher text with same or different algorithm.
+                                -usually , a 32-bit character long symmetric password is used for the same.
+                                
+                                
+Third layer of encryption
+                            -The encrypted capsule is transmitted via SSL/TLS connection
+                            to the communication partner.
+                            -capsule create for transmission.
+  -
+  
+  Hybrid cryptography
+  
+                           -multiple ciphers 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
