@@ -2,7 +2,8 @@ install python3
 install pip3 (python get-start.py)
 install pipenv (pip3 install pipenv)
 pipenv install django==3.1.6
-navigate to the folder of your project then type "django-admin startproject name_of_you_project
+pipenv shell
+navigate to the folder of your project then type "django-admin startproject name_of_you_project ."
 ls
 python manage.py runsever
 
@@ -16,5 +17,11 @@ app - each app focuses on a particular aspect.
  
 create the app by exiting the server ctrl c
 python manage.py startapp name_of_app
+Go to setting.py and install_app and add you app.
+then go to the views.py, then import HttpResponse(from django.http import HttpResponse)
+within the view.py create a function
+  (def productView(request):
+       return HttpResponse('the content of that page  should be here')
+Go to the urls.py to make connection "from apytpp_name.views import appview. At the urlpattern add to th path search_name and the appview
 
 
