@@ -1,0 +1,20 @@
+install python3
+install pip3 (python get-start.py)
+install pipenv (pip3 install pipenv)
+pipenv install django==3.1.6
+navigate to the folder of your project then type "django-admin startproject name_of_you_project
+ls
+python manage.py runsever
+
+
+point to note
+-------------------
+project - is a single project powers a single website
+        - can contain multiple apps
+app - each app focuses on a particular aspect.
+ 
+ 
+create the app by exiting the server ctrl c
+python manage.py startapp name_of_app
+
+
