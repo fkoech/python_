@@ -1,0 +1,60 @@
+Initial django setup
+-----------------------
+-Django project is a collection of setings for an instance of django, including database 
+ configuration, Django-specific options and application settings.
+-To create a project:
+                   $django-admin startproject ProjectName
+-Giving project build-in python or django components will conflict with django itself or with built-in python package.
+-Unlike php where you put code under the web server's document root(var/www), django you can put it anywhere.
+-This can risk you possibility of people viewing you code over the web.
+
+-manage.py - is a command-line utility that lets you interact with django project.
+-the inner ProjectName directory is the actual python package for your project.
+-python package name you will need to import anything inside it(ProjectName.urls).
+-ProjectName/__init__.py - is an empty  file that tells python that this directory should
+ be considered a python package.
+ -Projectname/settings.py - will tell you all about how setting work.
+ 
+ -To start django development server
+                    python manage.py runserver
+ -To change the server port 
+             python manage.py runserver 8080
+ -Django come with utility that automatically genenerate the busic directory structure of an app.
+ -An app is a web application that does something eg weblog system, database of public records or
+ a small app
+ -A project is a collection of configuration and  apps for a particular website. It can contain multiple apps.
+ -App should be in the same directory as manage.py file so that it can be imported as its own top-level module rather than submodule of projectName.
+ -To create an app 
+                python manage.py startapp appName
+                
+ -path() function is passed four arguments, two required: route and view, and two optional:
+  kwargs and name.
+ -path() argument: route 
+  .route is a string that  contains a URL pattern.
+  .when  processing a request, Django starts at the first patern in urlpatterns and makes 
+   its way  down the list, comparing the requested URL again each pattern until it finds one that matches.
+  .path() argument: view -
+  .when django funds a matching pattern, it calls the specified  view function with an 
+   HttpRequest object ad first argumen.
+  .path() argument: kwargs -
+   -arbitrary keyword arguments can be passed in a dictionary to the target view. 
+   .path() argument: name
+   .Naming your URL lets you refer to it unambiguously from elsewhere in Django. especially from within template.
+   .It is a powerful feature that allow you to make global change to the url pattern of your project o
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
