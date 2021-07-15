@@ -25,3 +25,4 @@ within the view.py create a function
 Go to the urls.py to make connection "from apytpp_name.views import appview. At the urlpattern add to th path search_name and the appview
 
 
+https://www.codingforentrepreneurs.com/blog/how-to-create-a-custom-django-user-model
