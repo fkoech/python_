@@ -1,0 +1,35 @@
+how computer program works
+----------------------------------
+-A program makes a computer useful.
+-A language is a means(tool) for expressing and recording thoughts.
+-computer do have their own language called machine language.
+-A computer is the most technically sophisticated, is a devoid
+of even a trace of intelligence. It is like a trained dog- it responds only to 
+a predetermined set of known commands.
+-A complete set of known commands is called an instruction list.
+-human language is called natural languages.
+
+What makes a language
+-----------------------
+-Machine or natural consist of the following elements.
+                alphabet
+                lexis
+                syntax
+                semantics
+-Alphabet - set of symbols used to build words of a certain language.
+-Lexis - set of words the language offers its users.
+-Syntax - set of rules(formal and informal) used to 
+determine if a certain string of words forms a valid sentences.
+-Semantics - set of rules determining if a certain phrase make sense.
+- high-level programming language is a language which humans can 
+write their programs and a language that  computer may use to
+execute the prgrams, it is far more complex than machine language and ye
+t far simpler than natural language.
+-much somewhat similar to natural one in that they use symbols,
+words and conventions readable to humans.
+-source code is a program written in a high level programming language.
+
+Compilation vs interpretation.
+----------------------------------
+-Compilation and interpretation is a transformation of a program 
+from a high level programming language into machine language.
