@@ -1,0 +1,34 @@
+#fist we need to import matplotlib python library for graphs and plots implementation
+import matplotlib.pyplot as mpl
+
+#we define out myplot function that takes five arguments
+#of which the minv, maxv, and step determine the range of values for the x-axis
+#and the fun1 and fun2 defines the y-values for two different plots
+
+def  myplot(minv, maxv, step, fun1, fun2):
+    #now we set out x and y plot labels
+    #and also indicate that x-axis should have a linear scale.
+    mpl.xlabel("the x-axis")
+    mpl.ylabel("the y axis")
+    mpl.xscale("Linear")#makes logs of linear scale
+
+    #now we generare our x-values that starts from minv, increasing by step and stop before
+    #reaching maximum value.
+    xvalues = range(minv, maxv, step)
+
+    #next is defining out function mpl.plot to plot the output of fun1 and fun2 against xvalues
+    mpl.plot(xvalues, [fun1(x) for x in xvalues], label="the first function")
+    mpl.plot(xvalues, [fun2(x) for x in xvalues], label="second function")
+
+    #label the two plots with names indicated
+    mpl.legend()
+
+    #display our plot on the screen
+    mpl.show()
+
+def twicefunc(x):
+    return x**2
+
+def tricefunc(x):
+    return x**3
+myplot(0,10, 1, twicefunc, tricefunc)
